@@ -36,7 +36,8 @@ public class FriendlyGriefing {
     @SubscribeEvent(priority = EventPriority.HIGH)
     public void onMobGriefing(EntityMobGriefingEvent event){
         Entity entity = event.getEntity();
-        if (entity.getLevel().getGameRules().getBoolean(GameRules.RULE_MOBGRIEFING)) {
+
+        if (entity == null || entity.getLevel().getGameRules().getBoolean(GameRules.RULE_MOBGRIEFING)) {
             return;
         }
 
