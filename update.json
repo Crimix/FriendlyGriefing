@@ -5,12 +5,13 @@
     "1.0.1": "https://github.com/Crimix/FriendlyGriefing/blob/1.18/CHANGELOG.md"
   },
   "1.19": {
-    "1.0.1": "https://github.com/Crimix/FriendlyGriefing/blob/1.19/CHANGELOG.md"
+    "1.0.1": "https://github.com/Crimix/FriendlyGriefing/blob/1.19/CHANGELOG.md",
+    "1.0.2": "https://github.com/Crimix/FriendlyGriefing/blob/1.19/CHANGELOG.md"
   },
   "promos": {
     "1.18.2-latest": "1.0.1",
     "1.18.2-recommended": "1.0.1",
-    "1.19-latest": "1.0.1",
-    "1.19-recommended": "1.0.1"
+    "1.19-latest": "1.0.2",
+    "1.19-recommended": "1.0.2"
   }
 }

@@ -43,7 +43,7 @@ public class FriendlyGriefing {
 
         Optional<String> entityId = Optional.of(entity)
                 .map(Entity::getType)
-                .map(ForgeRegistries.ENTITIES::getKey)
+                .map(ForgeRegistries.ENTITY_TYPES::getKey)
                 .map(ResourceLocation::toString);
 
         if (entityId.isPresent() && Config.FRIENDLY_GRIEFING_MOBS.get().contains(entityId.get())) {
